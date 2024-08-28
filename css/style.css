@@ -270,3 +270,27 @@ body {
     width: calc(100% - 45px); 
   }
 }
+
+.message-bubble {
+  max-width: 70%;
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+.user-message {
+  background-color: aquamarine;
+  color: black;
+  align-self: flex-end;
+}
+
+
+.bot-message {
+  background-color: #F0F0F0;
+  color: black;
+  align-self: flex-start;
+}
+
